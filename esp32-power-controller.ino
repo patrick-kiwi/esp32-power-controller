@@ -12,11 +12,11 @@
  * heating by topping up overnight when needed.
  */
 
+#include "config.h"           // WiFi and Blynk credentials (gitignored)
 #include <WiFi.h>
 #include <time.h>
 #include <sntp.h>
 #include <BlynkSimpleEsp32.h>
-#include "config.h"           // WiFi and Blynk credentials (gitignored)
 #include "non_blocking_delay.h"
 
 // =============================================================================

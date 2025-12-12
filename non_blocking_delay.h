@@ -36,20 +36,6 @@ public:
     return elapsed();
   }
   
-  /*
-   * Check if still waiting (interval has NOT elapsed).
-   * Does NOT reset the timer when interval elapses.
-   * 
-   * @return true   if still waiting
-   * @return false  if interval has elapsed
-   * 
-   * Usage example - wait for a period then continue:
-   *   nblock_delay timeout(5000);
-   *   while (timeout.waiting()) {
-   *     // do work while waiting
-   *   }
-   *   // 5 seconds have passed
-   */
   bool waiting() {
     return (millis() - lastTrigger_) < interval_;
   }
