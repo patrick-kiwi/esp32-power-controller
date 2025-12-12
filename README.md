@@ -180,7 +180,8 @@ Day 197, 14:33 | On-time: 0.12h | State: Waiting
 
 ## Related Projects
 
-- [Arduino Nano Power Diverter](link-to-nano-repo) — The solar power diverter that this controller monitors
+- [Arduino Nano Power Diverter](https://github.com/patrick-kiwi/nano-power-diverter) — The solar power diverter that this controller monitors
+- [Instructibles Guide](https://www.instructables.com/Solar-Power-Diverter/) — Build instructions and hardware details.
 
 ## Acknowledgements
 
